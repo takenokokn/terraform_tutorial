@@ -1,0 +1,6 @@
+[DEFAULT]
+user=ocid1.user.oc1..aaaaaaaau6jo6pzq2mckxhzizwukho5v2ayhvr6t6f45cqxsrsnvkbuxxdxq
+fingerprint=9e:4b:01:aa:e9:e9:44:2e:e6:c0:d7:30:90:4c:87:46
+tenancy=ocid1.tenancy.oc1..aaaaaaaax3qptuseedyoayisdek735nlmz7nb3bap6zwjawua3zlqpeoqu6a
+region=us-ashburn-1
+key_file=/home/mnt/oracleidentitycloudservice_k.takei-09-29-08-50.pem

@@ -1,0 +1,20 @@
+### Substitute USERNAME to correct the path
+### Substitute the OCIDs, fingerprints and keys with the correct ones for your environment
+### File for Linux and OS X Users in shell environment
+### Authentication detailsc
+export TF_VAR_tenancy_ocid=ocid1.tenancy.oc1..aaaaaaaax3qptuseedyoayisdek735nlmz7nb3bap6zwjawua3zlqpeoqu6a
+export TF_VAR_user_ocid=ocid1.user.oc1..aaaaaaaau6jo6pzq2mckxhzizwukho5v2ayhvr6t6f45cqxsrsnvkbuxxdxq
+export TF_VAR_fingerprint=9e:4b:01:aa:e9:e9:44:2e:e6:c0:d7:30:90:4c:87:46
+export TF_VAR_private_key_path=/home/mnt/.oci/oracleidentitycloudservice_k.takei-09-29-08-50.pem
+
+### Compartment
+export TF_VAR_compartment_ocid=ocid1.compartment.oc1..aaaaaaaafpccz3kputadn4afkhqxijghlz7zsmmvwpwxztnk72v5qtpva6oa
+
+### Public/private keys used on the instances
+export TF_VAR_ssh_public_key=$(cat /home/mnt/.ssh/id_rsa.pub)
+export TF_VAR_ssh_private_key=$(cat /home/mnt/.ssh/id_rsa)
+
+### Region
+export TF_VAR_region=us-ashburn-1
+
+

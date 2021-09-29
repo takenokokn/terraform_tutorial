@@ -1,0 +1,406 @@
+# Some sample images. Fetched with the OCI python cli.
+
+oci compute image list -c ocid1.compartment.oc1..aaaaaaaa3djcs6r45z6hri64tj5onmn6sbuoh4eeapshzabjjgedczz2qgra
+
+
+{
+  "data": [
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-VM-Gen2-2018.02.01-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaahc2mxe7ksauqkfiip4ayunhcilsdntyaqer5kyjfhudvilc4yela",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2018-02-01T23:01:41.591000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-VM-Gen2-2018.01.12-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaam3rbuegojxzdomvbp6qa2fb45ex24ng7c5ykawuqmomerfblveaq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2018-01-10T15:05:16.246000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-VM-Gen2-2017.10.31-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaae5cbnhdfyd75lzxypq2vk4n7w7rj6uj7rqvquoghn6n67omy5lqq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2017-10-30T19:20:34.669000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-VM-2018.02.01-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaak7y2ojnh6uteltilfcoziymglfordtitx5pixefkymlcxhjjf67q",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2018-02-01T21:24:55.899000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-VM-2018.01.13-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaa2donb3wurulqfetcpah2lgbdkxeppa2jcgri3x76gsszvgqyqj7a",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2018-01-13T06:58:31.192000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-VM-2017.11.06-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaalumo6pbq33qzmmnh544qouy3dhbfpzwm5nil652xa524pyw2wxfa",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2017-11-17T22:52:56.402000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-BM-Gen2-GPU-2018.01.14-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaa5swqqlz66mbg7asv3b7xuceet3qip2gkvjngnlmldpsenjdh75sq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2018-01-17T19:15:26.238000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-BM-Gen2-DenseIO-2018.01.14-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaa7gpoytzaa6pgk3o6sgvv6ps67xubosynrts4nvajcricehafj4oq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2018-01-17T19:24:45.208000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-BM-Gen2-DenseIO-2017.10.31-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaahalg2x2ye3rqli7grlxfycrcttlpptf7jqavaz3vwzv6zrcvzn5q",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2017-10-30T18:06:56.657000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-BM-Gen2-2018.01.13-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaaaabs6syexibggstyszay2uzqdqigyc5tsbd2c4atv4semhwhb4ya",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2018-01-13T18:51:19.616000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-BM-Gen2-2017.10.31-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaamduslcme62jdd6pyxcrurphepxw3gpblilszp6tczu2oqq5jmhma",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2017-10-30T18:37:14.886000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-BM-2018.01.16-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaahuytiyztyvrzgyrvbrs7dcxpc3kyjzzwjenqe6huv4dshkvb5wba",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2018-01-16T20:32:41.039000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-BM-2017.10.23-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaaotdmimlhfbq2y2252e7ibs3npeyaqmzdmilvb252l3naovvsim2q",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2017-11-17T23:18:14.751000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2012-R2-Standard-Edition-BM-2017.07.25-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaadcegaay43eux6uap55fhp6lqaqh37xgocscktwm2yr7ql4pcykxq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2012 R2 Standard",
+      "time-created": "2017-07-25T20:55:37.937000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2008-R2-Standard-Edition-VM-2018.01.11-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaak6t33zokyfi6fde2eiqqgizozdqkqkss3mpgqkc6bf5touxrwp2a",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2008 R2",
+      "time-created": "2018-01-12T00:59:19.912000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2008-R2-Standard-Edition-VM-2017.11.03-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaamrtc5wktcpt4u4yuh5p2ywilizoy2ucsa6iyiz5xhtnflwix57mq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2008 R2",
+      "time-created": "2017-11-17T21:37:01.980000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Windows-Server-2008-R2-Enterprise-Edition-VM-2018.02.09-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaaxiqhbntv7mjifzgkh5akwrldoef6uixzgtkkxyqnt77z3crnowuq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Windows",
+      "operating-system-version": "Server 2008 R2",
+      "time-created": "2018-02-09T19:35:31.149000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Oracle-Linux-7.4-Gen2-GPU-2018.01.20-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaa6e56ujmzdgbahcjnz463nkcx7y6eoxjn4eye6yu72tww6r4wxpnq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Oracle Linux",
+      "operating-system-version": "7.4",
+      "time-created": "2018-01-20T18:31:22.974000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Oracle-Linux-7.4-2018.01.20-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaav4gjc4l232wx5g5drypbuiu375lemgdgnc7zg2wrdfmmtbtyrc5q",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Oracle Linux",
+      "operating-system-version": "7.4",
+      "time-created": "2018-01-20T18:30:32.756000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Oracle-Linux-7.4-2018.01.10-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaaxklzl52nmabfp3466ilzfpo7lv737k44kih4jpo7nsmxjehwrdsq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Oracle Linux",
+      "operating-system-version": "7.4",
+      "time-created": "2018-01-10T00:40:36.448000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Oracle-Linux-7.4-2017.12.18-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaasc56hnpnx7swoyd2fw5gyvbn3kcdmqc2guiiuvnztl2erth62xnq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Oracle Linux",
+      "operating-system-version": "7.4",
+      "time-created": "2017-12-19T01:27:32.579000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Oracle-Linux-6.9-2018.01.20-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaafzlbcpmvqzv5gjfl7welxc4y22qvijz2fv4dpimqnnotnkmlj5ja",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Oracle Linux",
+      "operating-system-version": "6.9",
+      "time-created": "2018-01-20T18:30:50.885000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Oracle-Linux-6.9-2018.01.11-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaacpyierajezidmkj26fzlbhe6a35qjm6xvwzyptpvo3opoac7nloa",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Oracle Linux",
+      "operating-system-version": "6.9",
+      "time-created": "2018-01-11T05:59:31.039000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Oracle-Linux-6.9-2017.12.18-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaaqxaduancidzixj5folub7vsobupm2sb6r3ex7cr6whdpzi3skxzq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Oracle Linux",
+      "operating-system-version": "6.9",
+      "time-created": "2017-12-19T01:26:10.605000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "CentOS-7-2018.01.04-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaajycoi24gyc4tajpwwxjo63yu76cnhtg5a5cfope4tpalnjnhbjqq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "CentOS",
+      "operating-system-version": "7",
+      "time-created": "2018-01-04T20:54:48.126000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "CentOS-7-2017.10.19-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaayxj6n7yobwp4pv62x42laxqabioh2oe3pk4fjer2vd34ro4ycewa",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "CentOS",
+      "operating-system-version": "7",
+      "time-created": "2017-10-19T21:09:59.437000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "CentOS-7-2017.09.14-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaauqtvzhqplzuyesb5tctig6qrwoavpnfiwdkvuynu7z646z72ahcq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "CentOS",
+      "operating-system-version": "7",
+      "time-created": "2017-09-04T18:25:59.713000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "CentOS-6.9-2018.01.05-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaaml7ogkxano2p4ur2xm7oom6jguttls5lzpcx3mbguarpta6vyuxq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "CentOS",
+      "operating-system-version": "6.9",
+      "time-created": "2018-01-05T07:57:06.469000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "CentOS-6.9-2017.09.14-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaagedr7qsbpxjylieetj7dy2r4xoq6p65v3i6y4simkhgyww2ibzxq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "CentOS",
+      "operating-system-version": "6.9",
+      "time-created": "2017-09-04T17:29:03.680000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "CentOS-6.9-2017.07.17-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaalm3mr4lpsnzjev2nzmmkhpiy7yxu3456qyg7r4nvjieslp4yngtq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "CentOS",
+      "operating-system-version": "6.9",
+      "time-created": "2017-07-17T19:00:26.485000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Canonical-Ubuntu-16.04-2018.01.11-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaau5cadziy5ef777zqtv6ummayq2vtbez25lt67jaobiz3gmp3zbxq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Canonical Ubuntu",
+      "operating-system-version": "16.04",
+      "time-created": "2018-01-11T20:26:13.336000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Canonical-Ubuntu-16.04-2017.11.21-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaaek2lwv2kku4yxugd2u42povscoqitxzrcumnn6mtiofdqkutbona",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Canonical Ubuntu",
+      "operating-system-version": "16.04",
+      "time-created": "2017-11-21T22:46:29.681000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Canonical-Ubuntu-16.04-2017.10.25-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaa2ay36hruo7yreeehmdabcb4pdfiiipoyp6r6hud3tbjqzkp4xu2q",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Canonical Ubuntu",
+      "operating-system-version": "16.04",
+      "time-created": "2017-10-25T22:38:17.526000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Canonical-Ubuntu-14.04-2018.01.11-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaalfnxla4wjqnkehn44xzu74orzdo5pxtsytjfyry72h4n5zrfmwoq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Canonical Ubuntu",
+      "operating-system-version": "14.04",
+      "time-created": "2018-01-11T19:16:21.747000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Canonical-Ubuntu-14.04-2017.11.21-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaaa5mikpf5fktj4x47bx4p4ak4g5jyuyukkxpdg4nll36qzqwjzd2q",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Canonical Ubuntu",
+      "operating-system-version": "14.04",
+      "time-created": "2017-11-21T22:44:07.604000+00:00"
+    },
+    {
+      "base-image-id": null,
+      "compartment-id": null,
+      "create-image-allowed": true,
+      "display-name": "Canonical-Ubuntu-14.04-2017.08.22-0",
+      "id": "ocid1.image.oc1.phx.aaaaaaaa2wjumduuoq6rqprrsmgu53eeyzp47vjztn355tkvsr3m2p57woqq",
+      "lifecycle-state": "AVAILABLE",
+      "operating-system": "Canonical Ubuntu",
+      "operating-system-version": "14.04",
+      "time-created": "2017-08-07T22:13:08.430000+00:00"
+    }
+  ]
+}
+
